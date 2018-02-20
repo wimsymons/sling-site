@@ -18,7 +18,7 @@ Features may be enabled based on various contextual data:
 
 Feature flags can be provided by registering `org.apache.sling.featureflags.Feature` services.
 Alternatively feature flags can be provided by factory configuration with factory PID
-`org.apache.sling.featureflags.Feature` as follows:
+`org.apache.sling.featureflags.impl.ConfiguredFeature` as follows:
 
 | Property | Description |
 |--|--|
